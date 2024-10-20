@@ -1,3 +1,2 @@
-whats good pal 
-my favourite sport is football
-ummm i love AI
+PREDICTING STAR SIZES WITH ARTIFICIAL INTELLIGENCE
+
