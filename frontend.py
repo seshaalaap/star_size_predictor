@@ -14,7 +14,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url('https://i.pinimg.com/control/564x/c9/ed/af/c9edaf9a6b8b69c29631e02a8ba799f6.jpg');  
+        background-image: url('https://i.pinimg.com/736x/ac/7e/25/ac7e253e36427dff1abf46f98995964a.jpg');  
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
