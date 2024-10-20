@@ -36,7 +36,7 @@ st.markdown(
 )
 
 # FastAPI server URL
-BASE_URL = "http://localhost:8000"  # Update with your FastAPI server URL if needed
+BASE_URL = "https://star-size-predictor-ne93.onrender.com/"  # Update with your FastAPI server URL if needed
 
 # Streamlit app title
 st.title("Star Data Prediction App")
