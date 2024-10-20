@@ -14,7 +14,7 @@ This web application (https://aistarsizepredictor.streamlit.app/) allows the use
 5. Acts as a bridge or step up to future projects that will involve real astronomical datasets.
 
 
-## Installation
+# Installation
 
 This project is a Streamlit application for generating and predicting star data using a FastAPI backend.
 
@@ -38,36 +38,16 @@ Make sure you have the following installed:
 2. **Install dependencies**:
    Create a virtual environment (optional but recommended) and install the required packages:
 
+    For windows
+
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
-
-If you don't have a requirements.txt file, you can install the necessary libraries manually:
-
+For linux or mac
    ```bash
-   pip install streamlit requests pandas
+   python3 -m venv venv
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Usage
-
-Examples of how to use the project...
 
 
