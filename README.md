@@ -51,6 +51,7 @@ Make sure you have the following installed:
    ```
 
 3. Activate the virtual environment:
+   
    For windows
    ```bash
    venv\Scripts\activate
@@ -60,7 +61,8 @@ Make sure you have the following installed:
    source venv/bin/activate
    ```
    
-4. Install the requirements:
+5. Install the requirements:
+   
    For windows
    ```bash
    python -m pip install -r requirements.txt
@@ -70,12 +72,12 @@ Make sure you have the following installed:
    pip install -r requirements.txt
    ```
    
-5. Run the backend powered by FastAPI using Uvicorn:
+7. Run the backend powered by FastAPI using Uvicorn:
    ```bash
    uvicorn main:app
    ```
 
-6. Run the frontend powered by Streamlit:
+8. Run the frontend powered by Streamlit:
    ```bash
    streamlit run frontend.py
    ```
