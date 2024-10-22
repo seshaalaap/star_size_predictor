@@ -50,7 +50,7 @@ Make sure you have the following installed:
    python3 -m venv venv
    ```
 
-3. Activate the virtual environment
+3. Activate the virtual environment:
    For windows
    ```bash
    venv\Scripts\activate
@@ -59,7 +59,46 @@ Make sure you have the following installed:
    ```bash
    source venv/bin/activate
    ```
-4. 
+   
+4. Install the requirements:
+   For windows
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
+   For linux or Mac
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
+5. Run the backend powered by FastAPI using Uvicorn:
+   ```bash
+   uvicorn main:app
+   ```
+
+6. Run the frontend powered by Streamlit:
+   ```bash
+   streamlit run frontend.py
+   ```
+
+
+
+# Tools Used In This Project:
+1. FastAPI - To build the API endpoints
+2. Streamlit - To build and host the frontend of the web application
+3. Render - To host the backend API built using FastAPI
+4. NumPy - To create the synthetic dataset for training, validation, testing, and the web application
+5. Matplotlib - To visualize the cost vs iterations and in the web application to visualize the regression line
+6. Pandas - To read CSV files, create the dataframe, and save dataframes back to CSV
+
+# Acknowledgements
+Special thanks to the authors of the libraries used in this project.
+
+# Contact
+For questions or support, please reach out to aalaapsesh@gmail.com
+
+
+
+   
 
 
 
