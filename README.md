@@ -44,10 +44,22 @@ Make sure you have the following installed:
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
-For linux or mac
+   ```
+    For linux or Mac
    ```bash
    python3 -m venv venv
+   ```
 
+3. Activate the virtual environment
+   For windows
+   ```bash
+   venv\Scripts\activate
+   ```
+   For linux or Mac
+   ```bash
+   source venv/bin/activate
+   ```
+4. 
 
 
 
