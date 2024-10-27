@@ -21,7 +21,7 @@ b = 9.500380  # Bias (intercept)
 
 @app.get('/')
 def default():
-    return {'App': 'Running'}
+    return {'App': 'Running'} # This code defines a basic endpoint in a FastAPI application that responds with a JSON message when accessed. It's a common way to provide a simple health check or status response for your API.
 
 @app.post("/predict/")
 async def predict(file: UploadFile = File(...)):
