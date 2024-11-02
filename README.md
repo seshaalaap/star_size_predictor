@@ -1,4 +1,4 @@
-# Predicting Star Sizes with Artificial Intelligence
+# Predicting Star Sizes with Artificial Intelligence 💻★
 
 This web application (https://aistarsizepredictor.streamlit.app/) allows the user to do the following:
 1. Generate a synthetic dataset of 'n' number of stars as input.
@@ -6,7 +6,7 @@ This web application (https://aistarsizepredictor.streamlit.app/) allows the use
 3. The program then uses Artificial Intelligence (specifically, linear regression) to predict the star sizes using the brightness value of the stars.
 4. Following this, there is a feature to generate the plot of the predictions in order to tally how well the model performed on this unseen dataset.
 
-## Reasons for using synthetic datasets
+## Reasons for using synthetic datasets 📈
 1. The purpose of this project is to gain a practical understanding of linear regression using gradient descent.
 2. We created a dataset by applying noise to a true output equation, facilitating prediction equation generation.
 3. This process demonstrates how gradient descent optimizes weights (coefficients) and bias (intercept).
